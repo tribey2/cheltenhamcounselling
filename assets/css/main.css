@@ -1,0 +1,281 @@
+.feedback {
+    font-family: "Arimo", sans-serif !important;
+    font-size: 1.4rem !important;
+    text-align: center;
+    font-style: normal !important;
+}
+
+.etc h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.etc p {
+    line-height: 1.8;
+    font-size: 1.45rem;
+    text-align: justify;
+}
+
+#etc-img1 {
+    position: relative;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+#etc-img2 {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.aboutsue {
+    margin-top: 60px;
+}
+
+.aboutsue h2 {
+    text-align: left;
+    display: inline-block;
+}
+
+#about-profile-image {
+    display: inline-block;
+    float: right;
+    height: 110px;
+    border-radius: 50%;
+}
+
+#ncs-logo1 {
+    display: inline-block;
+    float: right;
+    height: 60px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+#ncs-logo2 {
+    display: inline-block;
+    float: right;
+    height: 60px;
+    position: relative;
+    margin-top: -10px;
+}
+
+@media(max-width: 1200px) {
+    #ncs-logo1, #ncs-logo2 {
+        margin-top: 10px;
+    }
+}
+
+.aboutsue p {
+    text-align: justify;
+}
+
+.aboutsue li {
+    font-weight: 500;
+}
+
+.aboutsue p, .aboutsue li {
+    line-height: 1.8;
+    font-size: 1.45rem;
+}
+
+.pricing {
+    margin-top: 60px;
+    line-height: 1.8;
+    font-size: 1.45rem;
+    text-align: justify;
+}
+
+.pricing li {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.contact {
+    margin-top: 60px;
+}
+
+.contact h2 {
+    display: inline-block;
+}
+
+#contact-text {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#phone-numbers {
+    font-family: "Arimo", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.footer {
+    font-family: "Arimo", sans-serif;
+    font-size: 1.4rem;
+    padding-top: 5px;
+    text-align: left;
+}
+
+#copyright {
+    display: inline-block;
+    float: left;
+}
+
+#footer-address {
+    display: inline-block;
+    float: right;
+}
+
+#etc-anchor {
+    margin-top: -20px;
+}
+
+#map-address {
+    font-family: "Arimo", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#about-anchor, #pricing-anchor, #contact-anchor {
+    margin-top: -30px;
+}
+
+@media(max-width: 1200px) {
+    #profile-image {
+        margin-top: 45px;
+    }
+}
+
+@media(max-width: 992px) {
+    #profile-image {
+        margin-top: 70px;
+    }
+    #opening-text {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        margin-top: 0px;
+    }
+    #contact-text {
+        font-size: 1.4rem;
+    }
+    #ncs-logo1 {
+        float: none;
+        clear: both;
+        margin-bottom: 20px;
+    }
+    #ncs-logo2 {
+        float: none;
+        clear: both;
+        margin-bottom: 20px;
+    }
+    .aboutsue li {
+        line-height: 1.7;
+        font-size: 1.45rem;
+    }
+}
+
+@media(max-width: 767px) {
+    #profile-image {
+        margin-top: 20px;
+        max-height: 350px;
+    }
+    .aboutsue li {
+        margin-top: 10px;
+    }
+    #ncs-logo1 {
+        float: right;
+        clear: none;
+    }
+    #ncs-logo2 {
+        float: right;
+        clear: none;
+    }
+    .aboutsue ul {
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 3rem !important;
+    }
+}
+
+@media(max-width: 600px) {
+    .banner p {
+        font-size: 1.6rem;
+    }
+    .feedback {
+        font-size: 1.3rem !important;
+    }
+    h2 {
+        font-size: 2.3rem;
+    }
+    #phone-numbers {
+        font-size: 1.4rem;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 550px) {
+    .footer {
+        text-align: center;
+    }
+    #copyright {
+        width: 100%;
+    }
+    #footer-address {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2.3rem !important;
+    }
+    #welcome-text-box-subtitle {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media(max-width: 450px) {
+    #ncs-logo1 {
+        float: none;
+    }
+    #ncs-logo2 {
+        float: none;
+    }
+}
+
+@media (max-width: 400px) {
+    #etc-img1, #etc-img2 {
+        max-width: 170px;
+    }
+    .banner p {
+        font-size: 1.5rem;
+    }
+    .banner {
+        padding: 5px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #ncs-logo1, ncs-logo2 {
+        max-width: 150px;
+        height: auto;
+    }
+}
+
+@media(max-width: 350px) {
+    #ncs-logo1, ncs-logo2 {
+        max-width: 120px;
+        height: auto;
+    }
+}
